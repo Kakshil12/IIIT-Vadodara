@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Scheduling</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .appointment {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .appointment:hover {
+            transform: translateY(-5px);
+        }
+
+        .appointment h2 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+
+        .appointment p {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+
+        .appointment .schedule-button {
+            background-color: #ff6b6b;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .appointment .schedule-button:hover {
+            background-color: #e63946;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Convenient Appointment Scheduling</h1>
+
+    <div class="appointment">
+        <h2>Academic Advisor Meeting</h2>
+        <p>Need guidance on course selection or academic planning? Schedule a meeting with your academic advisor.</p>
+        <button class="schedule-button">Schedule Now</button>
+    </div>
+
+    <div class="appointment">
+        <h2>Career Counseling Session</h2>
+        <p>Explore career options, job opportunities, and get expert advice on your career path.</p>
+        <button class="schedule-button">Schedule Now</button>
+    </div>
+
+    <div class="appointment">
+        <h2>Tutoring Session</h2>
+        <p>Struggling with a particular subject? Schedule a tutoring session with experienced tutors.</p>
+        <button class="schedule-button">Schedule Now</button>
+    </div>
+
+    <div class="appointment">
+        <h2>Library Research Assistance</h2>
+        <p>Get assistance with research projects, finding academic resources, and citing sources.</p>
+        <button class="schedule-button">Schedule Now</button>
+    </div>
+
+    <div class="appointment">
+        <h2>Health Services Appointment</h2>
+        <p>Need to consult with a healthcare professional? Schedule an appointment at the college health center.</p>
+        <button class="schedule-button">Schedule Now</button>
+    </div>
+</div>
+
+</body>
+</html>

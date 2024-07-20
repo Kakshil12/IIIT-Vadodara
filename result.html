@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Portal - Detailed Results and Feedback</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #F37335, #FDC830);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .subject-container {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .subject {
+            width: calc(33.33% - 20px);
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .subject:hover {
+            transform: translateY(-5px);
+        }
+
+        .subject h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .subject p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .subject .feedback-button {
+            background-color: #FDC830;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 16px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .subject .feedback-button:hover {
+            background-color: #F37335;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Detailed Results and Feedback</h1>
+
+    <div class="subject-container">
+        <div class="subject">
+            <h2>Mathematics</h2>
+            <p>Score: 95%</p>
+            <p>Feedback: Excellent understanding of concepts. Keep up the good work!</p>
+            <button class="feedback-button">Provide Feedback</button>
+        </div>
+
+        <div class="subject">
+            <h2>Physics</h2>
+            <p>Score: 88%</p>
+            <p>Feedback: Solid performance. Aim for more consistency in problem-solving.</p>
+            <button class="feedback-button">Provide Feedback</button>
+        </div>
+
+        <div class="subject">
+            <h2>Chemistry</h2>
+            <p>Score: 92%</p>
+            <p>Feedback: Great effort in the practical sessions. Work on improving theoretical understanding.</p>
+            <button class="feedback-button">Provide Feedback</button>
+        </div>
+
+        <div class="subject">
+            <h2>History</h2>
+            <p>Score: 87%</p>
+            <p>Feedback: Good grasp of historical events. Work on presenting arguments more effectively.</p>
+            <button class="feedback-button">Provide Feedback</button>
+        </div>
+
+        <div class="subject">
+            <h2>Computer Science</h2>
+            <p>Score: 98%</p>
+            <p>Feedback: Outstanding performance. Keep exploring advanced topics.</p>
+            <button class="feedback-button">Provide Feedback</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

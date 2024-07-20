@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Portal - Attendance Records</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: pink;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: grey;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007bff;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        td {
+            background-color: #f0f0f0;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #ddd;
+        }
+
+        .subject {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .subject.math {
+            background-color: #28a745;
+        }
+
+        .subject.physics {
+            background-color: #dc3545;
+        }
+
+        .subject.chemistry {
+            background-color: #ffc107;
+        }
+
+        .subject.history {
+            background-color: #6610f2;
+        }
+
+        .subject.computer {
+            background-color: #17a2b8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Attendance Records</h1>
+
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Total Classes</th>
+            <th>Attended Classes</th>
+            <th>Attendance Percentage</th>
+        </tr>
+        <tr>
+            <td><span class="subject math">Math</span></td>
+            <td>20</td>
+            <td>18</td>
+            <td>90%</td>
+        </tr>
+        <tr>
+            <td><span class="subject physics">Physics</span></td>
+            <td>22</td>
+            <td>20</td>
+            <td>91%</td>
+        </tr>
+        <tr>
+            <td><span class="subject chemistry">Chemistry</span></td>
+            <td>18</td>
+            <td>15</td>
+            <td>83%</td>
+        </tr>
+        <tr>
+            <td><span class="subject history">History</span></td>
+            <td>24</td>
+            <td>22</td>
+            <td>92%</td>
+        </tr>
+        <tr>
+            <td><span class="subject computer">Computer Science</span></td>
+            <td>20</td>
+            <td>18</td>
+            <td>90%</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
